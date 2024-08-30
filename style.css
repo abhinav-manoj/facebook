@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f4f7;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    height: 700px;
+}
+
+
+
+.login-message{
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 22px;
+}
+#container{
+    height: 400px;
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    
+
+}
+#main{
+    
+    width: 396px;
+    height: 315px;
+    border-radius: 8px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    padding: 0 0 14px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.footer{
+    margin-top: 75px;
+    width: 100%;
+    height: 290px;
+    background-color: #fff;
+    color: grey;
+
+}
+.footer p{
+    font-size: 12px;
+    margin-top: 28px;
+    padding: 0 0 0 138px;
+}
+.f-content{
+    height: 165px;
+    width: 900px;
+    margin: 0 40px 10px 40px;
+    font-size: 12px;
+    padding: 0 100px;
+    
+}
+.f-content ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.content_2 ul{
+    list-style-type: none;
+    font-size: 12px;
+    padding: 0 0 0 138px;
+    margin: 8px 0;
+    
+
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+.content_2{
+    width: 1200px;
+}
+.f-content ul li{
+    
+    
+    margin-top: 150px;
+    
+}
+#email input{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 355px;
+    border: 0px solid grey;
+    outline: none;
+    box-shadow: 0px 0px 1px 1px lightgrey inset;
+   
+}
+#password input{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 355px;
+    border: 0px solid grey;
+    outline: none;
+    box-shadow: 0px 0px 1px 1px lightgrey inset;
+    
+    
+}
+#btn input{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 355px;
+    background-color: #166fe5;
+    color: #fff;
+    border: 1px;
+    font-weight: bold;
+}
+#forgot{
+    margin-bottom: 18px;
+    color: #166fe5;
+    font-size: small;
+}
