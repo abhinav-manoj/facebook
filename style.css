@@ -138,6 +138,13 @@ body{
 }
 #forgot{
     margin-bottom: 18px;
-    color: #166fe5;
+    
     font-size: small;
+    
+    
+    
+}
+#forgot a{
+    text-decoration: none;
+    color: #166fe5;
 }
